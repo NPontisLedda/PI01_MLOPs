@@ -14,35 +14,8 @@ Se me confió la tarea de desarrollar una API utilizando el marco **FastAPI** pa
 ![PI1_MLOps_Mapa1](https://raw.githubusercontent.com/pjr95/PI_ML_OPS/main/src/DiagramaConceptualDelFlujoDeProcesos.png)
 
 
-# Descripción y diccionario del conjunto de datos
+# Diccionario del conjunto de datos
 Para descargar los archivos originales, ya que tienen mucho peso, se pueden encontrar en el siguiente enlace. [Original Datasets](https://drive.google.com/drive/folders/1HqBG2-sUkz_R3h1dZU5F2uAzpRn7BSpj)
-
-
-| **Columna**         | **Descripción**                                                   | **Ejemplo**                                                                                                                                                                           |
-|------------------- |------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| publisher          | Content publisher                                                  | [Ubisoft, Dovetail Games - Trains, Degica]                                                                                                                                           |
-| genres             | Content genre                                                      | [Action, Adventure, Racing, Simulation, Strategy]                                                                                                                                    |
-| app_name           | Content name                                                       | [Warzone, Soundtrack, Puzzle Blocks]                                                                                                                                                 |
-| title              | Content title                                                      | [The Dream Machine: Chapter 4 , Fate/EXTELLA - Sweet Room Dream, Fate/EXTELLA - Charming Bunny]                                                                                       |
-| url                | Content publication URL                                            | [http://store.steampowered.com/app/761140/Lost_Summoner_Kitty/]                                                                                                                      |
-| release_date       | Release date                                                       | [2018-01-04]                                                                                                                                                                         |
-|| tags               | Content tags                                                       | [Simulation, Indie, Action, Adventure, Funny, Open World, First-Person, Sandbox, Free to Play]                                                                                       |
-
-|| reviews_url        | Content reviews URL                                                | [http://steamcommunity.com/app/681550/reviews/?browsefilter=mostrecent&p=1]                                                                                                           |
-|| specs              | Specifications                                                     | [Multi-player, Co-op, Cross-Platform Multiplayer, Downloadable Content]                                                                                                              |
-|| price              | Content price                                                      | [4.99, 9.99, Free to Use, Free to Play]                                                                                                                                              |
-|| early_access       | Early access                                                       | [False, True]                                                                                                                                                                        |
-|| id                 | Unique content identifier                                          | [761140, 643980, 670290]                                                                                                                                                            |
-|| developer          | Developer                                                          | [Kotoshiro, Secret Level SRL, Poolians.com]                                                                                                                                         |
-
-|| user_id            | Unique user identifier                                             | [76561197970982479, evcentric, maplemage]                                                                                                                                            |
-|| user_url           | User profile URL                                                   | [http://steamcommunity.com/id/evcentric]                                                                                                                                             |
-|| reviews            | User review in Json format                                         | {'funny': '', 'posted': 'Posted September 8, 2013.','last_edited': '','item_id': '227300','helpful': '0 of 1 people (0%) found this review helpful','recommend': True,'review': "For a simple..."}                                       |                                                                                                                                                                                   |
-|| user_id            | Unique user identifier                                             | [76561197970982479, evcentric, maplemage]                                                                                                                                            |
-|| user_url           | User profile URL                                                   | [http://steamcommunity.com/id/evcentric]                                                                                                                                             |
-|| items              | User items in Json format                                          | {'item_id': '273350', 'item_name': 'Evolve Stage 2', 'playtime_forever': 58, 'playtime_2weeks': 0}                                                                                |
-Processes
-
 
 _**ETL**_:
 Para conocer más sobre el desarrollo del proceso ETL, existe el siguiente enlace
