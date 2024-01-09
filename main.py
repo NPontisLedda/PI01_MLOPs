@@ -13,8 +13,8 @@ import pickle
 
 app = FastAPI()
 # ----------------
-df_f1_2= pd.read_csv(r'C:/Users/Mary/Desktop/Pimlops/df_f1_2.csv')
-df_f3_4_5= pd.read_csv(r'C:/Users/Mary/Desktop/Pimlops/df_f3_4_5.csv')
+df_f1_2= pd.read_csv(r'/df_f1_2.csv')
+df_f3_4_5= pd.read_csv(r'/df_f3_4_5.csv')
 # ----------------
 df_f3_4_5.drop(columns='Unnamed: 0',inplace=True)
 df_f3_4_5.drop(columns='title',inplace=True)
@@ -44,7 +44,7 @@ df_f3_4_5.drop(columns='posted', inplace=True)
 label_encoder = LabelEncoder()
 
 # Cargar los datos
-df_ml = pd.read_csv(r'C:/Users/Mary/Desktop/Pimlops/df_ML.csv')
+df_ml = pd.read_csv(r'/df_ML.csv')
 # Crear una nueva columna llamada genres_encoded, que tiene los generos codificados como int.
 df_ml["genres_encoded"] = label_encoder.fit_transform(df_ml["genres"])
 
