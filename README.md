@@ -7,7 +7,7 @@
 
 # Introducción
 
-El proyecto actual se basa en datos de ficción y no es un proyecto que busca resultados de un análisis, sino mostrar algunas habilidades que soy capaz de realizar.
+El proyecto actual se basa en datos de ficción y no es un proyecto que busca resultados de un análisis, sino mostrar algunas habilidades que he adquirido en el bootcamp y lo que soy capaz de realizar.
 
 Se me confió la tarea de desarrollar una API utilizando el marco **FastAPI** para mostrar un sistema de recomendación y análisis de bases de datos de juegos. El resultado solicitado fue un **Producto Mínimo Viable (MVP)** que contiene cinco puntos finales de función y un último para un sistema de recomendación de aprendizaje automático.
 
