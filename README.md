@@ -14,7 +14,7 @@ Se me confió la tarea de desarrollar una API utilizando el marco **FastAPI** pa
 ![PI1_MLOps_Mapa1](https://raw.githubusercontent.com/pjr95/PI_ML_OPS/main/src/DiagramaConceptualDelFlujoDeProcesos.png)
 
 
-# Diccionario del conjunto de datos
+# Descripción y diccionario del conjunto de datos
 Para descargar los archivos originales, ya que tienen mucho peso, se pueden encontrar en el siguiente enlace. [Original Datasets](https://drive.google.com/drive/folders/1HqBG2-sUkz_R3h1dZU5F2uAzpRn7BSpj)
 
 _**ETL**_:
